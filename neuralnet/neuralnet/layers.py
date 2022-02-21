@@ -9,7 +9,7 @@ from .conv import Conv2D_Op
 from .dense import WeightMultiply, BiasAdd
 from .dropout import Dropout
 from .reshape import Flatten
-from utils.np_utils import assert_same_shape
+from neuralnet.utils.np_utils import assert_same_shape
 
 
 class Layer(object):

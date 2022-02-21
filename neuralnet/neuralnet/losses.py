@@ -1,10 +1,10 @@
 import numpy as np
 from numpy import ndarray
 
-from utils.np_utils import (assert_same_shape,
+from neuralnet.utils.np_utils import (assert_same_shape,
                        softmax,
                        normalize,
-                       exp_ratios,
+                       #exp_ratios, does not exist
                        unnormalize)
 
 

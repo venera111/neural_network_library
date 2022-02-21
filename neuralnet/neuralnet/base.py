@@ -1,6 +1,6 @@
 from numpy import ndarray
 
-from utils.np_utils import assert_same_shape
+from neuralnet.utils.np_utils import assert_same_shape
 
 
 class Operation(object):
